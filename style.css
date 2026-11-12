@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,14 +10,17 @@
     padding: 0;
     height: 100px;
     display: flex;
-    justify-content: space-between; 
-    align-items: center;    
+    justify-content: space-between;
+    align-items: center;
+
 }
+
 .links ul {
     list-style-type: none;
     display: flex;
     gap: 100px;
 }
+
 .links ul li {
     height: 15 px;
     background-color: azure;
@@ -25,6 +28,29 @@
     text-decoration: none;
     list-style-type: none;
 }
-.links ul li:hover{
+
+.links ul li:hover {
     background-color: blue;
+}
+
+.about {
+    padding: 9px;
+    text-align: center;
+    background-image: url(images/About.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 9px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aqua;
+    
+    font-size: larger;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/About.jpg');
+}
+.about h2{
+    color: beige;
 }
